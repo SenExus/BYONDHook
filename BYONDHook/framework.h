@@ -1,5 +1,5 @@
 #pragma once
 
-#define WIN32_LEAN_AND_MEAN             // Escludere gli elementi usati raramente dalle intestazioni di Windows
-// File di intestazione di Windows
+#define WIN32_LEAN_AND_MEAN // Exclude rarely used items from Windows headers
+// Windows header file
 #include <windows.h>

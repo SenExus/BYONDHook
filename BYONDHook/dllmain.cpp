@@ -1,4 +1,4 @@
-// dllmain.cpp : Definisce il punto di ingresso per l'applicazione DLL.
+// dllmain.cpp: Defines the entry point for the DLL application.
 #include "pch.h"
 #include <iostream>
 #include <Windows.h>
@@ -56,7 +56,7 @@ void Init() {
     freopen("CONIN$", "r", stdin);
     freopen("CONOUT$", "w", stdout);
     printf("[>] Initializing... \n");
-    HMODULE ByondCore = GetModuleHandleA("byondcore.dll");
+    HMODULE ByondCore = GetModuleHandleA("byondcore.dll"); // Finds pointer value for byondcore.dll
     printf("[+] ByondCore.dll address: 0x%p\n", ByondCore);
 
     HOOK_TRACE_INFO hHook = { NULL };

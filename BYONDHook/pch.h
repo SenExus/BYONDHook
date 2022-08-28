@@ -1,13 +1,13 @@
-// pch.h: questo è un file di intestazione precompilata.
-// I file elencati di seguito vengono compilati una sola volta, in modo da migliorare le prestazioni per le compilazioni successive.
-// Questa impostazione influisce anche sulle prestazioni di IntelliSense, incluso il completamento codice e molte altre funzionalità di esplorazione del codice.
-// I file elencati qui vengono però TUTTI ricompilati se uno di essi viene aggiornato da una compilazione all'altra.
-// Non aggiungere qui file soggetti a frequenti aggiornamenti; in caso contrario si perderanno i vantaggi offerti in termini di prestazioni.
+// pch.h: This is a precompiled header file.
+// The files listed below are compiled only once, which improves performance for subsequent compilations.
+// This setting also affects IntelliSense performance, including code completion and many other code exploration features.
+// However, the files listed here are ALL recompiled if one of them is updated from build to build.
+// Do not add files that are subject to frequent updates here; otherwise you will lose the benefits offered in terms of performance.
 
 #ifndef PCH_H
 #define PCH_H
 
-// aggiungere qui le intestazioni da precompilare
+// add the headers to pre-populate here
 #include "framework.h"
 
-#endif //PCH_H
+#endif // PCH_H
